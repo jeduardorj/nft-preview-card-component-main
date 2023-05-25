@@ -12,9 +12,11 @@ body{
     font-family: 'Outfit', sans-serif;
     background-color: hsl(217, 54%, 11%);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    min-width: 100%;
 
 }
 
@@ -133,4 +135,11 @@ hr{
 .author a:hover{
     color: hsl(178, 100%, 50%);
     cursor: pointer;
+}
+
+.attribution p{
+    width: 100vh;
+    padding: 30px;
+    text-align: center;
+    background-color:hsl(215, 31%, 28%) ;
 }
